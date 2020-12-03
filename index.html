@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Devine le nombre</title>
+  </head>
+
+  <body>
+    <h1 class="yellow">Devine le nombre exact</h1>
+
+    <p class="yellow">Tu dois trouver le nombre compris entre 1 et 100. Tu as 10 tentatives. Tu seras informés à chaque tour si le nombre est plus grand ou plus petit.</p>
+
+    <div class="form">
+      <label class="yellow" for="guessField">Entre un nombre: </label>
+      <input type="text" id="guessField" class="guessField">
+      <input type="submit" value="ENTRER" class="guessSubmit">
+    </div>
+
+      <div class="resultParas">
+      <p class="choixJoueur"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+
+    <script src="main.js"></script>
+    
+  </body>
+</html>
